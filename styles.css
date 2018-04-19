@@ -43,6 +43,7 @@ h3 a:link {color: #087 !important;}
 	margin-right:auto; 
 	text-align: center;
 	font-size: 4rem;
+	color:#FF69B4;
 }
 
 #logo{
@@ -100,4 +101,17 @@ hr{
 
 .title{
 	font-size: 4rem;
+}
+
+#why{
+	width: 52%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    color:grey;
+    text-align: center;
+}
+
+#stat{
+	font-size:200;
 }
