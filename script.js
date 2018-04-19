@@ -137,7 +137,7 @@ searchItemRenderers = {
         }
         html.push("<a href='" + item.hostPageUrl + "'>");
         var title = escapeQuotes(item.name) + "\n" + getHost(item.hostPageDisplayUrl);
-        html.push("<img class = 'zoom col-md-1' src='"+ item.thumbnailUrl + "&h=" + height + "&w=" + width + 
+        html.push("<img class = 'zoom' src='"+ item.thumbnailUrl + "&h=" + height + "&w=" + width + 
             "' height=" + height + " width=" + width + " title='" + title + "' alt='" + title + "'>");
         html.push("</a>");
         return html.join("");
@@ -396,3 +396,5 @@ function doPrevSearchPage() {
     alert("You're already at the beginning!");
     return false;
 }
+
+document.getElementById('term');
